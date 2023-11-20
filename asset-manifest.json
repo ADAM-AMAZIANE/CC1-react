@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ADAM-AMAZIANE/CC1-react.git/static/css/main.27049b54.css",
+    "main.css": "/ADAM-AMAZIANE/CC1-react.git/static/css/main.9be20e93.css",
     "main.js": "/ADAM-AMAZIANE/CC1-react.git/static/js/main.3877f723.js",
     "static/js/787.49c3f8c6.chunk.js": "/ADAM-AMAZIANE/CC1-react.git/static/js/787.49c3f8c6.chunk.js",
     "static/media/united-kingdom.svg": "/ADAM-AMAZIANE/CC1-react.git/static/media/united-kingdom.2d19fed4fb288f7b8a8591bbe3b70429.svg",
     "index.html": "/ADAM-AMAZIANE/CC1-react.git/index.html",
     "static/media/spain.svg": "/ADAM-AMAZIANE/CC1-react.git/static/media/spain.32e1e4891a5c1d5ce79f04ec7671d151.svg",
     "static/media/france.svg": "/ADAM-AMAZIANE/CC1-react.git/static/media/france.40c79af5ce5231775ae018679c075255.svg",
-    "main.27049b54.css.map": "/ADAM-AMAZIANE/CC1-react.git/static/css/main.27049b54.css.map",
+    "main.9be20e93.css.map": "/ADAM-AMAZIANE/CC1-react.git/static/css/main.9be20e93.css.map",
     "main.3877f723.js.map": "/ADAM-AMAZIANE/CC1-react.git/static/js/main.3877f723.js.map",
     "787.49c3f8c6.chunk.js.map": "/ADAM-AMAZIANE/CC1-react.git/static/js/787.49c3f8c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27049b54.css",
+    "static/css/main.9be20e93.css",
     "static/js/main.3877f723.js"
   ]
 }
