@@ -1,0 +1,56 @@
+
+
+
+
+
+
+.hi {
+
+
+    margin: 0%;
+    font-size: 30px;
+    font-weight: 1000;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: #3498db;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px  rgba(2, 2, 2, 2);
+    border-radius: 10px; 
+    background-color: rgb(215, 215, 215);
+    width: 50%;
+    height: 50%;
+}
+
+/* Optional: Add some styles for dark mode */
+body.dark-mode .hi {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .hi {
+      margin: 0 auto; /* Center the content horizontally */
+      max-width: 600px; /* Set a maximum width for the content */
+      padding: 10px; /* Add some padding for better readability */
+      border-radius: 10px; /* Add rounded corners for a modern look */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+      font-weight: 1000;
+      font-size: 25px;
+      left: auto;
+      width: 100%;
+
+      
+  }
+   }
+  
+  

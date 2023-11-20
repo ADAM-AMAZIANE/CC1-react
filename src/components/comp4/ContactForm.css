@@ -1,0 +1,82 @@
+*{
+    justify-content: center;
+}
+
+td  {
+  width: 200px;
+}
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  .ContactForm form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .ContactFormlabel {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .ContactForm input[type="text"],
+  .ContactForm input[type="tel"],
+  .ContactForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 3px;
+  }
+  
+  .ContactForm button {
+    width: 20%;
+    padding: 10px;
+    background-color: #0e82e7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .ContactForm button:hover {
+    background-color: #164b83;
+  }
+  
+  .ContactForm ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ContactForm li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .ContactForm li button {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .ContactForm li button:hover {
+    background-color: #9a1511;
+    font-: 50px;
+  }
+  
