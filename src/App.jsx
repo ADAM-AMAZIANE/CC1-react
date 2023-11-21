@@ -27,7 +27,7 @@ const App = () => {
 
         <Routes>     
           <Route path="/" element={<Hi />} />
-          <Route path="/adam" element={<Hi />} />
+          <Route path="CC1-react/adam" element={<Hi />} />
           <Route path="/CC1-react/" element={<Hi />} />
           <Route path="/Calc" element={<Calc />} />
           <Route path="/ImageSlider" element={<ImageSlider slides={SliderData}/>} />
