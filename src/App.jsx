@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Calc from './components/comp1/Calc'; 
 import ImageSlider from './components/comp2/ImageSlider';
@@ -29,6 +28,8 @@ const App = () => {
           <Route path="/" element={<Hi />} />
           <Route path="/CC1-react/adam" element={<Hi />} />
           <Route path="/CC1-react/" element={<Hi />} />
+          <Route path="/adam" element={<Hi />} />
+          <Route path="/CC1-react" element={<Hi />} />
           <Route path="/Calc" element={<Calc />} />
           <Route path="/ImageSlider" element={<ImageSlider slides={SliderData}/>} />
           <Route path="/TodoList" element={<TodoList />} />
