@@ -28,10 +28,13 @@
    
   </head>
   <body class="light-mode">
-    <button class="dark-button" onclick="toggleMode()">Toggle Mode</button>
+    
+    <label class="switch">
+      <input type="checkbox" onclick="toggleMode()">
+      <span class="slider round"></span>
+    </label>
 
     <script>
-
       function toggleMode() {
         const body = document.body;
         body.classList.toggle('dark-mode');

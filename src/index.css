@@ -5,14 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-body {
   transition: background-color 0.5s;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -20,37 +12,24 @@ body {
   box-sizing: border-box;
 }
 
-.dark-button {
-  border-radius: 50%  
-  ;
-  margin-top: 0px;
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  z-index: 2; 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-.dark-button:hover{
-  background-color: #0b5485;
-}
- @media (max-width: 991px) {
-   .dark-button {
-    top: 18px;
-   right: 30%;
-    
-   
- }
-  }
-.dark-mode h1 , h2 , h3 {
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
   color: #fff;
 }
-.dark-mode.FilterContact{
+
+.dark-mode.FilterContact {
   color: #fff;
 }
+
 nav {
-  
   border-radius: 0px 0px 10px 10px;
-  z-index: 1; 
+  z-index: 1;
 }
+
 .dark-mode {
   background-color: #333;
   color: #fff;
@@ -61,4 +40,77 @@ nav {
   color: #333;
 }
 
+.dark-mode .switch {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 1460px;
+}
 
+.switch {
+  margin-top: 0px;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  position: absolute;
+  left: 1460px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .switch {
+    top: 20px;
+    left: 43%;
+  }
+
+  .dark-mode .switch {
+    top: 20px;
+    left: 43%;
+  }
+}
